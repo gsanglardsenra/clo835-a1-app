@@ -1,7 +1,7 @@
 name: Build & Push to ECR
 on:
   push:
-    branches: [ master ]   # protected branch per assignment
+    branches: [ main ]   # protected branch per assignment
 
 jobs:
   build:
